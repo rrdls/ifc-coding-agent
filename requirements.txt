@@ -1,0 +1,9 @@
+deepagents
+langchain
+langchain-anthropic
+langchain-openai
+langchain-ollama
+python-dotenv
+langfuse
+langchain-community
+langchain-experimental

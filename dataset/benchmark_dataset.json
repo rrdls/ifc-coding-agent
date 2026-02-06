@@ -1,0 +1,682 @@
+[
+  {
+    "id": "ARQ_DIRECTLOOKUP_00",
+    "question": "How many walls are there?",
+    "model": "ARQ.ifc",
+    "gold_standard": "678",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_01",
+    "question": "What IFC schema version is used?",
+    "model": "ARQ.ifc",
+    "gold_standard": "IFC4",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_02",
+    "question": "What are the length units?",
+    "model": "ARQ.ifc",
+    "gold_standard": "METRE",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_03",
+    "question": "How many building storeys are there?",
+    "model": "ARQ.ifc",
+    "gold_standard": "2",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_04",
+    "question": "Are there any IfcOpeningElements in the model?",
+    "model": "ARQ.ifc",
+    "gold_standard": "Yes",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_05",
+    "question": "What is the building name?",
+    "model": "ARQ.ifc",
+    "gold_standard": "Construção",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_06",
+    "question": "How many building elements are there in total?",
+    "model": "ARQ.ifc",
+    "gold_standard": "2091",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_07",
+    "question": "How many ramps are there?",
+    "model": "ARQ.ifc",
+    "gold_standard": "4",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_08",
+    "question": "List all unique covering types",
+    "model": "ARQ.ifc",
+    "gold_standard": "CEILING, CLADDING, NOTDEFINED",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_09",
+    "question": "What is the fire resistance rating of walls?",
+    "model": "ARQ.ifc",
+    "gold_standard": "N/A",
+    "is_impossible": true,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_10",
+    "question": "List all unique wall materials",
+    "model": "ARQ.ifc",
+    "gold_standard": "GENÉRICO - VEDAÇÃO EXTERNA, GENÉRICO - VEDAÇÃO INTERNA, TIJOLO - MACIÇO 5x10x20",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_DIRECTLOOKUP_11",
+    "question": "What is the project name and how many storeys does it have?",
+    "model": "ARQ.ifc",
+    "gold_standard": "PROJETO PADRÃO - FNDE, 2 storeys",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_00",
+    "question": "Are there any load-bearing walls?",
+    "model": "ARQ.ifc",
+    "gold_standard": "No",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_01",
+    "question": "How many walls use material 'TIJOLO - MACIÇO 5x10x20'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "4",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_02",
+    "question": "Are there any walls with material 'GENÉRICO - VEDAÇÃO EXTERNA'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "Yes",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_03",
+    "question": "How many walls are on TÉRREO storey?",
+    "model": "ARQ.ifc",
+    "gold_standard": "541",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_04",
+    "question": "How many external walls are there?",
+    "model": "ARQ.ifc",
+    "gold_standard": "347",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_05",
+    "question": "How many CEILING coverings use material 'FNDE-Tabica'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "314",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_06",
+    "question": "How many walls use 'GENÉRICO - VEDAÇÃO INTERNA'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "5",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_07",
+    "question": "How many windows are on TÉRREO storey?",
+    "model": "ARQ.ifc",
+    "gold_standard": "57",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_08",
+    "question": "How many spaces require wall waterproofing?",
+    "model": "ARQ.ifc",
+    "gold_standard": "8",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_09",
+    "question": "How many coverings use epoxy paint materials?",
+    "model": "ARQ.ifc",
+    "gold_standard": "102",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_10",
+    "question": "List all unique materials containing word 'Pintura'",
+    "model": "ARQ.ifc",
+    "gold_standard": "EI-REV-Pintura Acrílica Cor Azul Externa, EI-REV-Pintura Acrílica Cor Branco Gelo, EI-REV-Pintura Acrílica Cor Branco Gelo - Interna, EI-REV-Pintura Acrílica Cor Branco Neve, EI-REV-Pintura Acrílica Cor Cinza, EI-REV-Pintura Acrílica Cor Vermelho Externa, EI-REV-Pintura Epóxi cor Amarelo, EI-REV-Pintura Epóxi cor Azul, EI-REV-Pintura Epóxi cor Branco, EI-REV-Pintura Epóxi cor Cinza, EI-REV-Pintura Epóxi cor Laranja, EI-REV-Pintura Epóxi cor Verde, EI-REV-Pintura Epóxi cor Vermelho, EI-REV-Pintura Poliuretano cor Amarelo, EI-REV-Pintura Primer externo, EI-REV-Pintura Primer interno, RODAMEIO EM MADEIRA COM PINTURA ESMALTE NA COR BRANCA",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_11",
+    "question": "List all materials containing 'Granito'",
+    "model": "ARQ.ifc",
+    "gold_standard": "EI-GRA-Divisória - Granito cinza Andorinha, EI-GRA-Granito cinza Andorinha (Bancadas, bancos e prateleiras), EI-GRA-Soleira/ Peitoril - Granito cinza Andorinha",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_12",
+    "question": "Is there any wall material containing the word 'TIJOLO'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "Yes",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_13",
+    "question": "How many internal walls are there?",
+    "model": "ARQ.ifc",
+    "gold_standard": "331",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_14",
+    "question": "How many unique materials contain the term 'Cerâmica'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "8",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_15",
+    "question": "How many doors are on TÉRREO storey?",
+    "model": "ARQ.ifc",
+    "gold_standard": "79",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_16",
+    "question": "How many coverings are on TÉRREO storey?",
+    "model": "ARQ.ifc",
+    "gold_standard": "944",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_17",
+    "question": "How many external walls use 'VEDAÇÃO EXTERNA' material on TÉRREO?",
+    "model": "ARQ.ifc",
+    "gold_standard": "0",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_18",
+    "question": "How many walls use material containing 'TIJOLO'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "4",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_FILTEREDAGGREGATION_19",
+    "question": "How many walls have material containing 'VEDAÇÃO'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "6",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ARQ_MULTISTEP_00",
+    "question": "How many stairs and ramps are there in total?",
+    "model": "ARQ.ifc",
+    "gold_standard": "5",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_01",
+    "question": "What is the ratio of railings to stairs?",
+    "model": "ARQ.ifc",
+    "gold_standard": "37.00",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_02",
+    "question": "What percentage of walls use 'TIJOLO - MACIÇO 5x10x20'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "0.59",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_03",
+    "question": "What is the ratio of doors to windows?",
+    "model": "ARQ.ifc",
+    "gold_standard": "1.39",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_04",
+    "question": "List the count of walls for each material type on TÉRREO storey (format: 'Material: N')",
+    "model": "ARQ.ifc",
+    "gold_standard": "GENÉRICO - VEDAÇÃO EXTERNA: 1, GENÉRICO - VEDAÇÃO INTERNA: 5, TIJOLO - MACIÇO 5x10x20: 4",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_05",
+    "question": "What percentage of openings are in exterior walls?",
+    "model": "ARQ.ifc",
+    "gold_standard": "37.00",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_06",
+    "question": "What percentage of walls are internal?",
+    "model": "ARQ.ifc",
+    "gold_standard": "48.82",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_07",
+    "question": "Are there more doors on TÉRREO than on COBERTURA?",
+    "model": "ARQ.ifc",
+    "gold_standard": "Yes",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_08",
+    "question": "What percentage of walls on TÉRREO are external?",
+    "model": "ARQ.ifc",
+    "gold_standard": "39.37",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_09",
+    "question": "What is the ratio of walls using 'VEDAÇÃO EXTERNA' vs 'VEDAÇÃO INTERNA'?",
+    "model": "ARQ.ifc",
+    "gold_standard": "0.20",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_10",
+    "question": "List the count of walls for each material and storey combination (format: 'STOREY/Material: N')",
+    "model": "ARQ.ifc",
+    "gold_standard": "TÉRREO/GENÉRICO - VEDAÇÃO EXTERNA: 1, TÉRREO/GENÉRICO - VEDAÇÃO INTERNA: 5, TÉRREO/TIJOLO - MACIÇO 5x10x20: 4",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_11",
+    "question": "Are there more external walls than internal walls on TÉRREO storey?",
+    "model": "ARQ.ifc",
+    "gold_standard": "No",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ARQ_MULTISTEP_12",
+    "question": "What is the average number of openings per external wall?",
+    "model": "ARQ.ifc",
+    "gold_standard": "0.29",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ELE_DIRECTLOOKUP_00",
+    "question": "How many light fixtures are there?",
+    "model": "ELE.ifc",
+    "gold_standard": "287",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ELE_DIRECTLOOKUP_01",
+    "question": "How many electric distribution boards are there?",
+    "model": "ELE.ifc",
+    "gold_standard": "9",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "ELE_FILTEREDAGGREGATION_00",
+    "question": "List all distribution board names that contain 'QD' in their name",
+    "model": "ELE.ifc",
+    "gold_standard": "QD1, QD2, QD3, QD4, QD5, QD6, QD7",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ELE_FILTEREDAGGREGATION_01",
+    "question": "How many cable carrier segments are there on TÉRREO storey?",
+    "model": "ELE.ifc",
+    "gold_standard": "669",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ELE_FILTEREDAGGREGATION_02",
+    "question": "Are there any junction boxes on the COBERTURA storey?",
+    "model": "ELE.ifc",
+    "gold_standard": "No",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ELE_FILTEREDAGGREGATION_03",
+    "question": "How many junction boxes have named identifiers?",
+    "model": "ELE.ifc",
+    "gold_standard": "20",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "ELE_MULTISTEP_00",
+    "question": "How many distribution elements are there in total?",
+    "model": "ELE.ifc",
+    "gold_standard": "1248",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ELE_MULTISTEP_01",
+    "question": "What is the ratio of light fixtures to junction boxes?",
+    "model": "ELE.ifc",
+    "gold_standard": "1.10",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ELE_MULTISTEP_02",
+    "question": "What percentage of cable carriers are fittings?",
+    "model": "ELE.ifc",
+    "gold_standard": "3.04",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "ELE_MULTISTEP_03",
+    "question": "What is the ratio of light fixtures to distribution boards?",
+    "model": "ELE.ifc",
+    "gold_standard": "31.89",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "EST_DIRECTLOOKUP_00",
+    "question": "How many beams are there?",
+    "model": "EST.ifc",
+    "gold_standard": "773",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "EST_DIRECTLOOKUP_01",
+    "question": "How many building storeys are there?",
+    "model": "EST.ifc",
+    "gold_standard": "4",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "EST_FILTEREDAGGREGATION_00",
+    "question": "How many columns are on the Térreo storey?",
+    "model": "EST.ifc",
+    "gold_standard": "219",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "EST_FILTEREDAGGREGATION_01",
+    "question": "How many footings have PAD_FOOTING predefined type?",
+    "model": "EST.ifc",
+    "gold_standard": "70",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "EST_FILTEREDAGGREGATION_02",
+    "question": "Are there any piles on the Cobertura storey?",
+    "model": "EST.ifc",
+    "gold_standard": "No",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "EST_FILTEREDAGGREGATION_03",
+    "question": "How many slabs have FLOOR predefined type?",
+    "model": "EST.ifc",
+    "gold_standard": "9",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "EST_MULTISTEP_00",
+    "question": "How many structural elements are there in total (beams + columns + footings)?",
+    "model": "EST.ifc",
+    "gold_standard": "1752",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "EST_MULTISTEP_01",
+    "question": "What is the ratio of beams to columns?",
+    "model": "EST.ifc",
+    "gold_standard": "1.03",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "EST_MULTISTEP_02",
+    "question": "What is the ratio of reinforcing bars to columns?",
+    "model": "EST.ifc",
+    "gold_standard": "39.16",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "EST_MULTISTEP_03",
+    "question": "What percentage of footings are PAD_FOOTING type?",
+    "model": "EST.ifc",
+    "gold_standard": "30.17",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HAF_DIRECTLOOKUP_00",
+    "question": "How many pipe segments are there?",
+    "model": "HAF.ifc",
+    "gold_standard": "824",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "HAF_DIRECTLOOKUP_01",
+    "question": "How many building storeys are there?",
+    "model": "HAF.ifc",
+    "gold_standard": "2",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "HAF_FILTEREDAGGREGATION_00",
+    "question": "How many valves are on the TÉRREO storey?",
+    "model": "HAF.ifc",
+    "gold_standard": "101",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HAF_FILTEREDAGGREGATION_01",
+    "question": "How many sanitary terminals are on the TÉRREO storey?",
+    "model": "HAF.ifc",
+    "gold_standard": "149",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HAF_FILTEREDAGGREGATION_02",
+    "question": "Are there any tanks on the COBERTURA storey?",
+    "model": "HAF.ifc",
+    "gold_standard": "No",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HAF_FILTEREDAGGREGATION_03",
+    "question": "How many elements are on TÉRREO storey?",
+    "model": "HAF.ifc",
+    "gold_standard": "1175",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HAF_MULTISTEP_00",
+    "question": "How many hydraulic elements are there in total (pipes + fittings + valves)?",
+    "model": "HAF.ifc",
+    "gold_standard": "1491",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HAF_MULTISTEP_01",
+    "question": "What is the ratio of pipe segments to pipe fittings?",
+    "model": "HAF.ifc",
+    "gold_standard": "1.46",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HAF_MULTISTEP_02",
+    "question": "What percentage of elements are on COBERTURA storey?",
+    "model": "HAF.ifc",
+    "gold_standard": "28.48",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HAF_MULTISTEP_03",
+    "question": "What is the ratio of pipe segments to valves?",
+    "model": "HAF.ifc",
+    "gold_standard": "8.16",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HEP_DIRECTLOOKUP_00",
+    "question": "How many pipe segments are there?",
+    "model": "HEP.ifc",
+    "gold_standard": "914",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "HEP_DIRECTLOOKUP_01",
+    "question": "How many building storeys are there?",
+    "model": "HEP.ifc",
+    "gold_standard": "2",
+    "is_impossible": false,
+    "type": "DirectLookup"
+  },
+  {
+    "id": "HEP_FILTEREDAGGREGATION_00",
+    "question": "How many pipe fittings are on the TÉRREO storey?",
+    "model": "HEP.ifc",
+    "gold_standard": "517",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HEP_FILTEREDAGGREGATION_01",
+    "question": "How many sanitary terminals are on the TÉRREO storey?",
+    "model": "HEP.ifc",
+    "gold_standard": "127",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HEP_FILTEREDAGGREGATION_02",
+    "question": "Are there any interceptors on the COBERTURA storey?",
+    "model": "HEP.ifc",
+    "gold_standard": "No",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HEP_FILTEREDAGGREGATION_03",
+    "question": "How many elements are on TÉRREO storey?",
+    "model": "HEP.ifc",
+    "gold_standard": "1483",
+    "is_impossible": false,
+    "type": "FilteredAggregation"
+  },
+  {
+    "id": "HEP_MULTISTEP_00",
+    "question": "How many flow terminals are there in total (sanitary + waste + stack)?",
+    "model": "HEP.ifc",
+    "gold_standard": "244",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HEP_MULTISTEP_01",
+    "question": "What is the ratio of pipe segments to pipe fittings?",
+    "model": "HEP.ifc",
+    "gold_standard": "1.49",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HEP_MULTISTEP_02",
+    "question": "What percentage of elements are on COBERTURA storey?",
+    "model": "HEP.ifc",
+    "gold_standard": "17.57",
+    "is_impossible": false,
+    "type": "MultiStep"
+  },
+  {
+    "id": "HEP_MULTISTEP_03",
+    "question": "What is the ratio of waste terminals to sanitary terminals?",
+    "model": "HEP.ifc",
+    "gold_standard": "0.73",
+    "is_impossible": false,
+    "type": "MultiStep"
+  }
+]

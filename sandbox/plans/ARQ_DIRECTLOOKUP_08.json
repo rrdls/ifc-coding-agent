@@ -1,0 +1,44 @@
+{
+  "query_id": "ARQ_DIRECTLOOKUP_08",
+  "query_text": "List all unique covering types",
+  "steps": [
+    {
+      "step": "Read skill index skills/ifcopenshell-filtering/SKILL.md",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:48:50.781776"
+    },
+    {
+      "step": "Read example script skills/ifcopenshell-filtering/scripts/filter_by_class.py",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:49:33.501178"
+    },
+    {
+      "step": "Create generic learned skill: get_entity_attribute_values in skills/learned/quantities/scripts/",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:49:41.052269"
+    },
+    {
+      "step": "Create sandbox query script that imports the generic and queries IfcCovering PredefinedType and IfcCoveringType Name",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:49:48.841628"
+    },
+    {
+      "step": "Execute the sandbox script and capture output",
+      "status": "complete"
+    },
+    {
+      "step": "Complete the execution plan",
+      "status": "complete"
+    }
+  ],
+  "ifc_model": "./projects/fnde/ARQ.ifc",
+  "entity_types": [
+    "IfcCovering"
+  ],
+  "scripts": [
+    "/home/rrdls/code-agent-ifc/deep-agent/skills/learned/quantities/scripts/list_entity_attribute_values.py",
+    "/home/rrdls/code-agent-ifc/deep-agent/sandbox/list_covering_types_arq_directlookup_08.py"
+  ],
+  "created_at": "2026-02-01T20:48:49.290494",
+  "completed_at": "2026-02-01T20:49:49.879186"
+}

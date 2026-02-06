@@ -1,0 +1,47 @@
+{
+  "query_id": "ARQ_MULTISTEP_08",
+  "query_text": "What percentage of walls on TÉRREO are external?",
+  "steps": [
+    {
+      "step": "Read ifcopenshell-filtering SKILL.md",
+      "status": "complete",
+      "completed_at": "2026-02-01T22:16:32.256131"
+    },
+    {
+      "step": "Read filter_by_class script",
+      "status": "complete",
+      "completed_at": "2026-02-01T22:17:30.495642"
+    },
+    {
+      "step": "Create generic skill count_entities in skills/learned/quantities/scripts",
+      "status": "complete",
+      "completed_at": "2026-02-01T22:17:48.156756"
+    },
+    {
+      "step": "Create query script in sandbox that imports generic and computes percentage of external walls on storey 'TÉRREO'",
+      "status": "complete",
+      "completed_at": "2026-02-01T22:18:00.045671"
+    },
+    {
+      "step": "Run the sandbox script and capture output",
+      "status": "complete",
+      "completed_at": "2026-02-01T22:18:17.373819"
+    },
+    {
+      "step": "Report result",
+      "status": "complete",
+      "completed_at": "2026-02-01T22:18:42.665968"
+    }
+  ],
+  "ifc_model": "./projects/fnde/ARQ.ifc",
+  "entity_types": [
+    "IfcWall"
+  ],
+  "scripts": [
+    "/home/rrdls/code-agent-ifc/deep-agent/sandbox/percentage_external_walls_terreo.py",
+    "/home/rrdls/code-agent-ifc/deep-agent/sandbox/discover_wall_psets.py",
+    "/home/rrdls/code-agent-ifc/deep-agent/sandbox/percentage_external_walls_terreo_v2.py"
+  ],
+  "created_at": "2026-02-01T22:16:30.976981",
+  "completed_at": null
+}

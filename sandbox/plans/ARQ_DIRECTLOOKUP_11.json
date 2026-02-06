@@ -1,0 +1,42 @@
+{
+  "query_id": "ARQ_DIRECTLOOKUP_11",
+  "query_text": "What is the project name and how many storeys does it have?",
+  "steps": [
+    {
+      "step": "Read skill index skills/ifcopenshell-filtering/SKILL.md",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:56:21.689299"
+    },
+    {
+      "step": "Read learned skills index skills/learned/SKILL.md",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:57:42.568487"
+    },
+    {
+      "step": "Create generic skill: skills/learned/spatial/scripts/get_project_and_storeys.py",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:57:53.288473"
+    },
+    {
+      "step": "Create sandbox query script: sandbox/query_arq_directlookup_11.py",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:57:59.399374"
+    },
+    {
+      "step": "Run sandbox script to get output and print results",
+      "status": "complete",
+      "completed_at": "2026-02-01T20:58:06.593725"
+    }
+  ],
+  "ifc_model": "./projects/fnde/ARQ.ifc",
+  "entity_types": [
+    "IfcProject",
+    "IfcBuildingStorey"
+  ],
+  "scripts": [
+    "/home/rrdls/code-agent-ifc/deep-agent/skills/learned/spatial/scripts/get_project_and_storeys.py",
+    "/home/rrdls/code-agent-ifc/deep-agent/sandbox/query_arq_directlookup_11.py"
+  ],
+  "created_at": "2026-02-01T20:56:19.950016",
+  "completed_at": "2026-02-01T20:58:07.615500"
+}
