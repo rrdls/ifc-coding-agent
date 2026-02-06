@@ -62,7 +62,7 @@ sandbox/
 
 ✓ **CORRECT Pattern:**
 ```bash
-# You are already in /home/rrdls/code-agent-ifc/deep-agent
+# You are already in /home/rrdls/ifc-coding-agent
 # Just create the script and run it with relative path
 python3 sandbox/count_walls_20260128.py
 ```
@@ -70,10 +70,10 @@ python3 sandbox/count_walls_20260128.py
 ✗ **WRONG Patterns (DO NOT DO THIS):**
 ```bash
 # Don't use cd commands
-cd /home/rrdls/code-agent-ifc/deep-agent && python3 sandbox/count_walls_20260128.py
+cd /home/rrdls/ifc-coding-agent && python3 sandbox/count_walls_20260128.py
 
 # Don't use absolute paths unless necessary
-/home/rrdls/code-agent-ifc/deep-agent/sandbox/count_walls_20260128.py
+/home/rrdls/ifc-coding-agent/sandbox/count_walls_20260128.py
 ```
 
 ### IfcOpenShell Skills (Knowledge Base)
@@ -82,4 +82,4 @@ The agent should start here to understand available capabilities:
 **Note:** This file contains references to in-depth modules (`01-fundamentos`, `02-selector-syntax`, etc.). The agent should read this index first.
 
 ## System Information
-- Local working directory: `/home/rrdls/code-agent-ifc/deep-agent`
+- Local working directory: `/home/rrdls/ifc-coding-agent`

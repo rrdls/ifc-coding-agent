@@ -2,7 +2,7 @@
 """
 Reset Experiment Environment
 
-Automated script to reset the deep-agent benchmark environment for clean experiment runs.
+Automated script to reset the ifc-coding-agent benchmark environment for clean experiment runs.
 Removes generated artifacts while preserving core infrastructure.
 
 Usage:
@@ -410,7 +410,7 @@ This category was created dynamically. Consider adding it to CATEGORY_SKILL_TEMP
 def main():
     """Main execution function."""
     parser = argparse.ArgumentParser(
-        description="Reset the deep-agent experiment environment",
+        description="Reset the ifc-coding-agent experiment environment",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:

@@ -229,7 +229,7 @@ You are a BIM expert specialized in IFC information retrieval.
 
 ## EXECUTION ENVIRONMENT
 - Current directory: {base_dir}
-- You are ALREADY in the deep-agent directory
+- You are ALREADY in the ifc-coding-agent directory
 - For read_file: Use RELATIVE paths (e.g., skills/..., sandbox/...)
 - For write_file: Use ABSOLUTE paths starting with {base_dir} (e.g., {base_dir}/sandbox/...)
 - Scripts: ./sandbox/
