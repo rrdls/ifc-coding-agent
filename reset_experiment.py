@@ -155,7 +155,12 @@ def create_category_skill_md(category: str) -> str:
     description = template.get("description", "")
     operations = "\n".join(template.get("operations", []))
     
-    return f"""# {category_title} Skills
+    return f"""---
+name: {category}
+description: "{description}"
+---
+
+# {category_title} Skills
 
 {description}
 
@@ -386,7 +391,12 @@ def recreate_skill_templates(dry_run: bool = False):
                 content = create_category_skill_md(category)
             else:
                 # Fallback for dynamically created categories
-                content = f"""# {category.capitalize()} Skills
+                content = f"""---
+name: {category}
+description: "Dynamically created category."
+---
+
+# {category.capitalize()} Skills
 
 Dynamically created category.
 
