@@ -1,3 +1,9 @@
+---
+name: relationships
+description: "Functions for navigating entity relationships and material associations."
+---
+
+
 # Relationships Skills
 
 Functions for navigating entity relationships and material associations.

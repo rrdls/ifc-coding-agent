@@ -1,3 +1,9 @@
+---
+name: quantities
+description: "Functions for counting, summing, and aggregating IFC entities."
+---
+
+
 # Quantities Skills
 
 Functions for counting, summing, and aggregating IFC entities.

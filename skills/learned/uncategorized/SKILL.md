@@ -1,3 +1,9 @@
+---
+name: uncategorized
+description: "Functions that don't fit existing categories (emerging patterns)."
+---
+
+
 # Uncategorized Skills
 
 Functions that don't fit existing categories (emerging patterns).

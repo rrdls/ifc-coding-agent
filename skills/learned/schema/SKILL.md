@@ -1,3 +1,9 @@
+---
+name: schema
+description: "Functions for querying IFC schema information and metadata."
+---
+
+
 # Schema Skills
 
 Functions for querying IFC schema information and metadata.

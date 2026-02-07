@@ -1,3 +1,9 @@
+---
+name: geometry
+description: "Functions for geometric calculations (areas, volumes, bounding boxes)."
+---
+
+
 # Geometry Skills
 
 Functions for geometric calculations (areas, volumes, bounding boxes).

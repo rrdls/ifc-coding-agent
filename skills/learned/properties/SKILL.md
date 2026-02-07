@@ -1,3 +1,9 @@
+---
+name: properties
+description: "Functions for extracting properties, elevations, and attributes."
+---
+
+
 # Properties Skills
 
 Functions for extracting properties, elevations, and attributes.

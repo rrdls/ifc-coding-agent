@@ -1,3 +1,9 @@
+---
+name: spatial
+description: "Functions for spatial queries (storeys, containment, zones)."
+---
+
+
 # Spatial Skills
 
 Functions for spatial queries (storeys, containment, zones).
