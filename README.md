@@ -8,16 +8,16 @@ This project implements a coding agent that uses IfcOpenShell domain knowledge e
 
 Unlike traditional approaches that rely on predefined domain tools, this agent consults skill documentation to generate appropriate code on-the-fly, enabling flexible responses to diverse and unanticipated queries.
 
-<!-- ## Academic Reference
+## Academic Reference
 
 This implementation accompanies the following research paper:
 
 > **A Skills-Based Coding Agent for Flexible BIM Information Retrieval**  
-> Ramos, R. & Calvetti, D.  
+<!-- > Ramos, R. & Calvetti, D.   -->
 > *2026 European Conference on Computing in Construction (EC3)*  
 > Corfu, Greece, July 12–15, 2026
 
-The agent achieves **84.7% overall accuracy** on the FNDE-BIM-Bench benchmark (85 queries across 5 IFC disciplines) using GPT-5-mini as the LLM backbone. -->
+The agent achieves **84.7% overall accuracy** on the FNDE-BIM-Bench benchmark (85 queries across 5 IFC disciplines) using GPT-5-mini as the LLM backbone.
 
 ## Requirements
 
